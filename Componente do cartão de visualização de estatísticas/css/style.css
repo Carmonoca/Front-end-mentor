@@ -1,0 +1,78 @@
+@import url(../css/colors.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: var(--main-background);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-heading-stats);
+}
+/*Card*/
+main{
+    width:61.7rem;
+    height: 25rem;
+    display: flex;
+    background-color: var(--card-background);
+}
+/* Card Left */
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    padding:3rem;
+    margin-right: 3rem;
+}
+.title h1{
+    font-size:2rem;
+    font-weight: 700;
+}
+.title span{
+    color: var(--soft-violet);
+}
+.information{
+    width: 100%;
+    color: var(--main-paragraph);
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+.information p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.numbers{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 2.5rem;
+}
+.number-information h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.number-information p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--main-paragraph);
+    margin-top: 0.5rem;
+}
+/*Right*/
+.right{
+    height: 100%;
+    width: 50%;
+}
+.right img{
+    width: 100%;
+    height: 100%;
+    filter:opacity(0.2) drop-shadow(0 0 0 var(--soft-violet));
+}
